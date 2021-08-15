@@ -15,7 +15,8 @@ struct ConnectionView: View{
         Image(imageName)
             .resizable()
             .aspectRatio(contentMode: .fill)
-            .frame(width: 60, height: 60)
-            .cornerRadius(100)
+            .frame(width: 80, height: 80)
+            //.cornerRadius(100)
+            .clipShape(Circle())
     }
 }
